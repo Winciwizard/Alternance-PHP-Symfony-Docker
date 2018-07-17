@@ -1,7 +1,7 @@
 ## Docker-compose for symfony
 _**/!\ This setup works on linux, never tried on windows**_
 1. Install docker, and docker-compose
-2. Create a symfony project or take an existing project and go to it.
+2. Create a symfony project or take an existing project and add the config/docker folder AND docker-compose.yml to the project
 3. Run the following commands:
 ```bash
 docker volume create mysqlsymfonydata
